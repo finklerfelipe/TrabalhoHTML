@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+h1{
+	color:white;
+	text-align:center;
+}
+h2{
+	text-align: center;
+	
+}
+p{
+	color:black;
+	text-align:left;
+}	
+#topo{
+	height:90px;
+	background-color:tan;
+}
+
+#logo{
+	background-color:tan;
+	width:20%;
+	float: left;
+	height:100%;
+}
+#conteudo{
+	height:1000px;
+	background-color:tan;
+	width:80%;
+	float: right;
+}
+nav{
+	background-color:tan;
+	height:1000px;
+	width: 20%;
+	float: left;
+}
+

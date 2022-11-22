@@ -1,0 +1,113 @@
+*{
+	margin:125;
+	padding:0;
+	border:0;
+}
+
+body{
+	background-color:Tan;
+}
+h1{
+	color:black;
+	text-shadow:10px 10px 10px gray;
+	text-align:center ;
+}	
+h2{
+	color:black;
+	text-align:left ;
+}	
+h3{
+	color:black;
+	text-align:left ;
+}
+#topo{
+	background-color:tan;
+	height:90px;
+	background-color:tan;
+}
+
+#logo{
+	background-image: linear-gradient(beige, tan)
+	width:20%;
+	float: left;
+	height:100%;
+}
+#conteudo{
+	background-image: linear-gradient(tan, beige);
+	height:700px;
+	width:80%;
+	float: right;
+}
+nav{
+	height:700px;
+	width: 20%;
+	float: left;
+	background-image: linear-gradient(tan, beige);
+}
+footer{
+	background-image: linear-gradient(beige, tan);
+	float: left;
+	width: 100%;
+}
+
+
+     form {
+  /* Centralizar o formulário na pagina */
+  margin: 0 auto;
+  width: 1000px;
+  /* Ver o esboço do formulário */
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+  display: inline-block;
+  width: 95px;
+  text-align: right;
+}
+
+input, textarea {
+  /* 
+Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+     Por padrão, as áreas de texto possuem a mesma fonte */
+  font: 1em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campos de texto*/
+  width: 900px;
+  box-sizing: border-box;
+
+  /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Para dar um pouco de destaque aos elementos ativos*/
+  border-color: #000;
+}
+
+textarea {
+  /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+  vertical-align: top;
+
+  /* Para dar espaço suficiente para digitar algum texto */
+  height: 5em;
+}
+
+.button {
+  /* Para posicionar os botões na mesma posição dos campos de texto */
+  padding-left: 900px; /* mesmo tamanho que os elementos do rótulo */
+}
+
+button {
+  /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+     entre os rótulos e seus campos de texto*/
+  margin-left: .5em;
+  background-color:Tan;
+}
+
